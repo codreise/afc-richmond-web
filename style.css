@@ -71,3 +71,12 @@ ul {
 ul li {
     margin: 10px 0;
 }
+
+body.dark {
+    background-color: #121212;
+    color: #eee;
+}
+
+body.dark header {
+    background-color: #000;
+}

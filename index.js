@@ -78,4 +78,9 @@ document.addEventListener("DOMContentLoaded", () => {
             button.classList.add("active");
         });
     });
+
+    const btn = document.createElement("button");
+    btn.id = "toggle-theme";
+    btn.textContent = "Toggle Theme";
+    document.body.appendChild(btn);
 });
